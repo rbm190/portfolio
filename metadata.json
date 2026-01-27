@@ -1,0 +1,8 @@
+{
+  "name": "AI Portfolio Architect",
+  "description": "A sophisticated developer landing page that fetches real-time projects from GitHub, generates live screenshots from hosted URLs, and features an integrated Gemini AI assistant to showcase the developer's work.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
