@@ -3,31 +3,31 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section id="home" className="pt-32 pb-20 px-6">
+    <section id="home" className="pt-40 pb-24 px-6 relative">
       <div className="max-w-7xl mx-auto text-center">
         <div className="inline-block glass-morphism px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-[0.2em] mb-8 border border-white/10 text-blue-400">
-          Available for new opportunities
+          Full Stack Developer & Architect
         </div>
-        <h1 className="text-5xl md:text-8xl font-black mb-8 leading-[1.1] tracking-tighter">
-          BUILDING <span className="gradient-text">DIGITAL</span><br />EXPERIENCES
+        <h1 className="text-6xl md:text-9xl font-black mb-8 leading-[0.9] tracking-tighter">
+          CRAFTING <span className="gradient-text">BOLD</span><br />PRODUCTS
         </h1>
         <p className="max-w-2xl mx-auto text-gray-400 text-lg md:text-xl font-light mb-12">
-          Senior Full-stack Engineer specializing in React, AI integration, and performant backend systems. 
-          Turning complex problems into elegant, scalable software solutions.
+          I build high-performance web applications and scalable digital systems. 
+          Specialized in modern ecosystems and elegant technical solutions.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="#projects" className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg shadow-blue-600/20">
-            View My Work
+          <a href="#projects" className="bg-blue-600 hover:bg-blue-500 text-white px-10 py-4 rounded-xl font-bold transition-all shadow-lg shadow-blue-600/20 uppercase text-sm tracking-wider">
+            Explore Projects
           </a>
-          <a href="#contact" className="glass-morphism border border-white/10 hover:bg-white/10 text-white px-8 py-4 rounded-xl font-bold transition-all">
-            Get In Touch
+          <a href="#contact" className="glass-morphism border border-white/10 hover:bg-white/10 text-white px-10 py-4 rounded-xl font-bold transition-all uppercase text-sm tracking-wider">
+            Contact Me
           </a>
         </div>
         
         {/* Abstract Background Decoration */}
-        <div className="absolute top-20 left-1/2 -translate-x-1/2 -z-10 w-full max-w-4xl h-[400px] opacity-20 blur-[100px] pointer-events-none">
-          <div className="absolute top-0 left-0 w-1/2 h-full bg-blue-500 rounded-full" />
-          <div className="absolute top-20 right-0 w-1/2 h-full bg-purple-500 rounded-full" />
+        <div className="absolute top-20 left-1/2 -translate-x-1/2 -z-10 w-full max-w-5xl h-[500px] opacity-10 blur-[120px] pointer-events-none">
+          <div className="absolute top-0 left-0 w-2/3 h-full bg-blue-500 rounded-full" />
+          <div className="absolute top-20 right-0 w-1/3 h-full bg-purple-500 rounded-full" />
         </div>
       </div>
     </section>
