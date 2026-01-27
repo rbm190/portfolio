@@ -6,21 +6,21 @@ const Hero: React.FC = () => {
     <section id="home" className="pt-40 pb-24 px-6 relative">
       <div className="max-w-7xl mx-auto text-center">
         <div className="inline-block glass-morphism px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-[0.2em] mb-8 border border-white/10 text-blue-400">
-          Full Stack Developer & Architect
+          Full Stack Developer
         </div>
-        <h1 className="text-6xl md:text-9xl font-black mb-8 leading-[0.9] tracking-tighter">
-          CRAFTING <span className="gradient-text">BOLD</span><br />PRODUCTS
+        <h1 className="text-6xl md:text-9xl font-black mb-8 leading-[0.9] tracking-tighter uppercase">
+          Digital <span className="gradient-text">Systems</span><br />By RBM190
         </h1>
         <p className="max-w-2xl mx-auto text-gray-400 text-lg md:text-xl font-light mb-12">
-          I build high-performance web applications and scalable digital systems. 
-          Specialized in modern ecosystems and elegant technical solutions.
+          Specializing in performant dashboards, record management systems, and clinical utility tools. 
+          Bridging the gap between complex data and intuitive user experiences.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="#projects" className="bg-blue-600 hover:bg-blue-500 text-white px-10 py-4 rounded-xl font-bold transition-all shadow-lg shadow-blue-600/20 uppercase text-sm tracking-wider">
-            Explore Projects
+            Explore My Work
           </a>
-          <a href="#contact" className="glass-morphism border border-white/10 hover:bg-white/10 text-white px-10 py-4 rounded-xl font-bold transition-all uppercase text-sm tracking-wider">
-            Contact Me
+          <a href="https://github.com/rbm190" target="_blank" rel="noopener noreferrer" className="glass-morphism border border-white/10 hover:bg-white/10 text-white px-10 py-4 rounded-xl font-bold transition-all uppercase text-sm tracking-wider">
+            GitHub Profile
           </a>
         </div>
         

@@ -18,18 +18,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />
-        
-        {/* Badges on Image */}
-        <div className="absolute top-4 left-4 flex gap-2">
-          <span className="bg-blue-500/80 backdrop-blur-md text-[10px] uppercase font-bold px-2 py-0.5 rounded text-white">
-            {project.language}
-          </span>
-          {project.stars > 0 && (
-            <span className="bg-yellow-500/80 backdrop-blur-md text-[10px] uppercase font-bold px-2 py-0.5 rounded text-black flex items-center gap-1">
-              ⭐ {project.stars}
-            </span>
-          )}
-        </div>
       </div>
 
       {/* Content */}

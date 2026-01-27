@@ -6,40 +6,39 @@ import ProjectCard from './components/ProjectCard';
 import { ProjectData } from './types';
 
 const App: React.FC = () => {
-  // Placeholder projects. These can be updated once the user provides specific URLs and photos.
   const projects: ProjectData[] = [
     {
       id: 1,
-      title: "Visionary UI Framework",
-      description: "A comprehensive design system for building accessible and high-performance web applications with React and Tailwind CSS.",
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      screenshotUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800&h=450",
-      stars: 124,
+      title: "Cbt records-enhanced",
+      description: "A professional dashboard for tracking and managing CBT records with enhanced visualization and reporting features.",
+      githubUrl: "https://github.com/rbm190/procbt-dashboard",
+      liveUrl: "https://procbt-dashboard.vercel.app/",
+      screenshotUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800&h=450",
+      stars: 0,
       language: "TypeScript",
-      tags: ["React", "UI/UX", "Tailwind"]
+      tags: ["Dashboard", "React", "Analytics"]
     },
     {
       id: 2,
-      title: "Nebula Engine",
-      description: "A fast, lightweight distributed computing engine designed for real-time data processing and analytics at scale.",
-      githubUrl: "https://github.com",
-      liveUrl: null,
-      screenshotUrl: "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?auto=format&fit=crop&q=80&w=800&h=450",
-      stars: 89,
-      language: "Rust",
-      tags: ["Performance", "Distributed", "Data"]
+      title: "Cbt records",
+      description: "A streamlined application designed for efficient recording and organization of CBT sessions and clinical notes.",
+      githubUrl: "https://github.com/rbm190/CBT-recorder",
+      liveUrl: "https://cbt-recorder.vercel.app/",
+      screenshotUrl: "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&q=80&w=800&h=450",
+      stars: 0,
+      language: "JavaScript",
+      tags: ["Recorder", "Web App", "Utilities"]
     },
     {
       id: 3,
-      title: "Atlas Maps Proxy",
-      description: "Secure and performant proxy layer for map tile services with built-in caching and rate-limiting capabilities.",
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      screenshotUrl: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800&h=450",
-      stars: 45,
-      language: "Go",
-      tags: ["Infrastructure", "Proxy", "Maps"]
+      title: "Upcoming Project",
+      description: "A new sophisticated project is currently in development. Stay tuned for updates on GitHub.",
+      githubUrl: "https://github.com/rbm190",
+      liveUrl: null,
+      screenshotUrl: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=800&h=450",
+      stars: 0,
+      language: "Future",
+      tags: ["Development", "Innovation"]
     }
   ];
 
@@ -58,8 +57,7 @@ const App: React.FC = () => {
                 Selected <span className="gradient-text">Works</span>
               </h2>
               <p className="text-gray-400 max-w-lg">
-                A curated selection of technical projects focusing on performance, 
-                scalability, and user-centric design.
+                Technical solutions focusing on data management, clinical efficiency, and clean architecture.
               </p>
             </div>
 
@@ -81,10 +79,9 @@ const App: React.FC = () => {
               Let's <span className="gradient-text">Connect</span>
             </h2>
             <p className="text-gray-400 text-lg mb-12 max-w-xl mx-auto font-light">
-              Looking for a partner to build something extraordinary? 
-              Drop me a line and let's discuss your next big idea.
+              Available for collaborations on healthcare tech, dashboards, and scalable web applications.
             </p>
-            <a href="mailto:contact@developer.me" className="bg-white text-black px-10 py-5 rounded-2xl font-black uppercase text-sm tracking-widest hover:bg-gray-200 transition-all inline-block shadow-2xl shadow-white/5">
+            <a href="mailto:contact@rbm190.dev" className="bg-white text-black px-10 py-5 rounded-2xl font-black uppercase text-sm tracking-widest hover:bg-gray-200 transition-all inline-block shadow-2xl shadow-white/5">
               Send an Email
             </a>
           </div>
@@ -95,11 +92,11 @@ const App: React.FC = () => {
       <footer className="py-12 border-t border-white/5 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-sm text-gray-500 font-medium">
-            © {new Date().getFullYear()} ARCHITECT. All rights reserved.
+            © {new Date().getFullYear()} RBM190. All rights reserved.
           </div>
           <div className="flex gap-8 text-xs font-bold uppercase tracking-widest text-gray-400">
-            <a href="#" className="hover:text-white transition-colors">GitHub</a>
-            <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
+            <a href="https://github.com/rbm190" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
             <a href="#" className="hover:text-white transition-colors">Twitter</a>
           </div>
         </div>
