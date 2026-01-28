@@ -35,7 +35,7 @@ const App: React.FC = () => {
       description: "A modern notes application with a focus on simplicity and productivity, allowing users to create, edit, and organize their notes efficiently.",
       githubUrl: "https://github.com/rbm190/notes",
       liveUrl: "https://notes-rbm190.vercel.app/",
-      screenshotUrl: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=800&h=450",
+      screenshotUrl: "https://unsplash.com/photos/white-and-blue-google-logo-aJ08i9-5k7E",
       stars: 0,
       language: "TypeScript",
       tags: ["Notes", "Web App", "Productivity"]
