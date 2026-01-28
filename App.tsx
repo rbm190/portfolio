@@ -31,14 +31,14 @@ const App: React.FC = () => {
     },
     {
       id: 3,
-      title: "Upcoming Project",
-      description: "A new sophisticated project is currently in development. Stay tuned for updates on GitHub.",
-      githubUrl: "https://github.com/rbm190",
-      liveUrl: null,
+      title: "Notes app",
+      description: "A modern notes application with a focus on simplicity and productivity, allowing users to create, edit, and organize their notes efficiently.",
+      githubUrl: "https://github.com/rbm190/notes",
+      liveUrl: "https://notes-rbm190.vercel.app/",
       screenshotUrl: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=800&h=450",
       stars: 0,
-      language: "Future",
-      tags: ["Development", "Innovation"]
+      language: "TypeScript",
+      tags: ["Notes", "Web App", "Productivity"]
     }
   ];
 
