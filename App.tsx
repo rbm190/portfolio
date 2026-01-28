@@ -35,7 +35,7 @@ const App: React.FC = () => {
       description: "A modern notes application with a focus on simplicity and productivity, allowing users to create, edit, and organize their notes efficiently.",
       githubUrl: "https://github.com/rbm190/notes",
       liveUrl: "https://notes-rbm190.vercel.app/",
-      screenshotUrl: "https://unsplash.com/photos/white-and-blue-google-logo-aJ08i9-5k7E",
+      screenshotUrl: "https://images.unsplash.com/photo-1600783245891-f275a1575d93?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       stars: 0,
       language: "TypeScript",
       tags: ["Notes", "Web App", "Productivity"]
